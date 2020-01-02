@@ -141,7 +141,6 @@ export class TakedownCreate extends React.Component {
 							<div className="row">
 								<div className="col btn-group">
 									<button type="button" disabled={disabled} style={ { zIndex: 0 } } className={dmcaButtonClass} onClick={() => this.updateField( 'type', 'dmca' )}>DMCA</button>
-									<button type="button" disabled={disabled} style={ { zIndex: 0 } } className={cpButtonClass} onClick={() => this.updateField( 'type', 'cp' )}>Child Protection</button>
 								</div>
 							</div>
 						</div>
